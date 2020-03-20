@@ -34,9 +34,11 @@ Install libs: readline, openssl and (if you want to use config) libconfig, liblu
 If you do not want to use them pass options --disable-libconfig, --disable-liblua, --disable-python and --disable-json respectively.
 
 On Ubuntu/Debian use: 
+
      sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson-dev libpython-dev make 
 
-     Also remember to run the following code between ./configure and make, otherwise make will NOT pass. 
+Also remember to run the following code between ./configure and make, otherwise make will NOT pass. 
+
      sudo apt install libssl1.0-dev 
 
 On gentoo:
